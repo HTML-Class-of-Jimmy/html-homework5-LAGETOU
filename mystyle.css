@@ -1,0 +1,50 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+header, footer {
+    padding: 1em;
+    clear: left;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid gray;
+}
+
+footer {
+    border-top: 1px solid gray;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    padding: 1.5em;
+    width:20%;
+}
+
+nav ul {
+    list-style-type: circle;
+    font-size:2vw;
+}
+
+article {
+    border-left: 1px solid gray;
+    width:70%;
+    text-align:center;
+    overflow:hidden;
+}
+
+article p {
+    font-size:2vw;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+img#description-image {
+    max-width:40%;
+}

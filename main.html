@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>任天堂相关</title>
+        <link rel="stylesheet" href="mystyle.css">
+        <script src="scripts/myscript.js"></script>
+        <meta charset="UTF-8">
+        <meta name="description" content="Nintendo Description">
+        <meta name="keywords" content="Nintedo, Nintendo Switch, Nintendo 3DS">
+        <meta name="author" content="Jimmy Who">
+        <!-- Set up the view port -->
+
+        <!-- 1. All the links in this web page starts with https://zh.wikipedia.org/wiki/ -->
+        <!-- 2. All the links in this web page should be opened in a new tab -->
+        <!-- So what tag should we use? How should we implement this? ;) -->
+        <style>
+            /* Add the following styles only when the screen width less than 600 px */
+                nav ul {
+                    list-style-type:none;
+                    padding: 1em;
+                    overflow:hidden;
+                }
+                nav, article {
+                    margin:0;
+                    padding:0;
+                    width:100%; /*The width is 100%, when the viewport is 800px or smaller*/
+                }
+                article {
+                    border-top:1px solid gray;
+                    border-left:0;
+                    padding-top: 1em;
+                    padding-bottom: 1em;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <header>
+                <!-- Make the font-size of h1 relative to the width of the screen -->
+                <!-- Say, 5% of the screen width -->
+               <h1>任天堂产品</h1>
+            </header>
+              
+            <nav>
+              <ul>
+                <li id="list-item1">Nintendo Switch</li>
+                <li id="list-item2">Nintendo 3DS</li>
+              </ul>
+            </nav>
+            
+            <article>
+                <a id="description-link" href="任天堂"><img id="description-image" alt="broken image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nintendo.svg/600px-Nintendo.svg.png"></a>
+                <p id="description-paragraph">任天堂由山内房治郎于1889年9月23日成立，最初主要是生产花札纸牌，此后一直维持此种经营方式至1960年代。此后任天堂进行了一系列业务多样化尝试，其中包括组建出租车公司、经营宾馆和出售真空吸尘器等等。 1970年代，任天堂最终进入电视游戏业务[4]，确定了作为玩具厂商的地位，并推出了“Ultra Band”、“光线枪SP”等热门商品。 1980年，发售掌上游戏机“Game & Watch”，取得巨大成功。 1983年，发售“Family Computer”。 1985年，其在FC上推出的游戏《超级马里奥兄弟》取得极大成功，在全世界范围内受到巨大欢迎。</p>
+            </article>
+            
+            <footer>Copyright &copy; Nintendo Fan</footer>
+            
+        </div>
+    </body>
+</html>
