@@ -8,12 +8,16 @@
         <meta name="keywords" content="Nintedo, Nintendo Switch, Nintendo 3DS">
         <meta name="author" content="Jimmy Who">
         <!-- Set up the view port -->
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <base href="https://zh.wikipedia.org/wiki/" target="_blank">
+        
         <!-- 1. All the links in this web page starts with https://zh.wikipedia.org/wiki/ -->
         <!-- 2. All the links in this web page should be opened in a new tab -->
         <!-- So what tag should we use? How should we implement this? ;) -->
         <style>
             /* Add the following styles only when the screen width less than 600 px */
+            @media (max-width:600px){
                 nav ul {
                     list-style-type:none;
                     padding: 1em;
@@ -30,12 +34,13 @@
                     padding-top: 1em;
                     padding-bottom: 1em;
                 }
+            }
         </style>
     </head>
     <body>
         <div class="container">
 
-            <header>
+            <header style="font-size: 5vw">
                 <!-- Make the font-size of h1 relative to the width of the screen -->
                 <!-- Say, 5% of the screen width -->
                <h1>任天堂产品</h1>
