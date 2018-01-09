@@ -17,11 +17,11 @@
         <h1>Bootstrap Example</h1>
         <h2>Thumbnail</h2>
         <p>The .img-thumbnail class creates a thumbnail of the image:</p>
-        <!-- Make the following image a thumbtail  -->
-        <img src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg" alt="Cinque Terre" width="304" height="236"> 
-
+        <!-- Make the following image a thumbnail  -->
+        <img src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg" alt="Cinque Terre" width="304" height="236" class="img-thumbnail" alt="Cinque Terre"> 
+      
         <!-- Make the following table a hoverable table -->
-        <table>
+        <table class="table table-dark table-hover">
             <thead>
                 <tr>
                     <th>Company</th>
@@ -46,24 +46,24 @@
 
         <!-- Make the following button look like the screenshot -->
         <h2>Badge inside a Button</h2>
-        <button type="button">
-            Messages <span>4</span>
+        <button type="button" class="btn btn-primary">
+            Messages <span class="badge badge-light">4</span>
         </button>
-        <button type="button">
-            Notifications <span>7</span>
+        <button type="button" class="btn btn-danger">
+            Notifications <span class="badge badge-light">7</span>
         </button>
         
         <!-- Create progress bar like the screenshot -->
         <h2>Multiple Progress Bars</h2>
         <p>Create a stacked progress bar by placing multiple bars into the same div with class="progress":</p> 
-        <div>
-            <div style="width:40%">
+        <div  class="progress">
+            <div class="progress-bar bg-success" style="width:40%">
                 Free Space
             </div>
-            <div style="width:10%">
+            <div   class="progress-bar bg-warning" style="width:10%">
                 Warning
             </div>
-            <div style="width:20%">
+            <div class="progress-bar bg-danger" style="width:20%">
                 Danger
             </div>
         </div>
